@@ -10,3 +10,5 @@ After editing the index.html tags, I noticed there was an issue with some of the
 The next thing I did was add alt descriptions to all of the images and graphics in index.html. 
 
 After that I realized that one of the navigation links at the top didn't work. I fixed it by adding an <id> tag to the search-engine-optimization section.
+
+Next I added clarifying comments to index.html and style.css. 
