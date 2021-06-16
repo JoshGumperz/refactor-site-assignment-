@@ -1,14 +1,37 @@
-# refactor-site-assignment-
-The goal of this assignment is to refactor; or clean up the source code, without changing what it does. 
+# Refactor Site Assignment
 
-So the first thing I'm going to do is create copies of index.html and style.css so I can edit and modify the code, while still maintaining the original versions for reference. 
+The goal of this assignment is to refactor & clean up the source code of the linked website, without changing what it does. 
 
-The next thing I'm going to do is I'm going to replace the non-semantic tags in index.html with semantic ones where necessary.
+## Getting Started
 
-After editing the index.html tags, I noticed there was an issue with some of the styling in the header, as style.css was referencing some <div> tags that I had replaced with <nav> tags. I went in to style.css and edited the code to match the changes I had made. 
+As you can see I've deployed a live site so you can see what the site looks like now. The changes I made were not visible to the user, meaning visually the site is exactly the same as it was when I got it. But taking a deeper look at the code, you'll see a number of key differences, such as:
+- All non-semantic tags in index.html have been replaced with semantic ones
+- All images have a descriptive alt attribute
+- All Non functional links have been fixed
+- Added descriptive comments to index.html and style.css for informational and organizational purposes
+- Restructured style.css and eliminated some of the unnecessary repeating code
 
-The next thing I did was add alt descriptions to all of the images and graphics in index.html. 
+## Built With
 
-After that I realized that one of the navigation links at the top didn't work. I fixed it by adding an <id> tag to the search-engine-optimization section.
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-Next I added clarifying comments to index.html and style.css. 
+## Deployed Link
+
+* [See Live Site](#)
+
+
+## Authors
+
+* **Josh Gumperz** 
+
+- [Link to Github](https://github.com/)
+- [Link to LinkedIn](https://www.linkedin.com/)
+
+## License
+
+This project is licensed under the MIT License 
+
+## Acknowledgments
+
+* I'd like to acknowledge my cat, classmates for helping and inspiring me through the process of completing this assignment.

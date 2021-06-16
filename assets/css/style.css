@@ -1,4 +1,4 @@
-/* Select everything on the page, include the padding and border in an element's total width and height, set padding & margin.  */
+/* Select everything on the page, set box-sizing to "border-box" in order to include the padding and border in an element's total width and height, set padding & margin.  */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -15,18 +15,19 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-/* position the navigation links in line next to each other */
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
 
 .seo {
     color: #d9dcd6;
 }
+/* style navigation links */
+.header h1 {
+    /* position the navigation links in line next to each other */
+    display: inline-block;
+    font-size: 48px;
+}
 
-/* Style navigation links */
 .header nav {
+    /* add padding to the top and margin to the right, position on the right side of the page, remove list styling in order to remove bullet points */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,13 +35,15 @@ body {
     font-size: 20px;
     list-style-type: none;
 }
-/* position the list items in a horizontal line */
-.header nav ul li {
+
+.header li {
+    /* position the list items next to each other in line while still respecing padding and margin */
     display: inline-block;
     margin-left: 25px;
 }
 
 a {
+    /* change color of link elements */
     color: #ffffff;
     text-decoration: none;
 }
@@ -53,13 +56,14 @@ a {
     background-size: cover;
     background-position: center;
 }
-/* set width to 75% so content doesn't take up the entire page, position content in line while still respecting padding and margin. */
+/* style main content */
 .content {
+    /* set width to 75% so content doesn't take up the entire page, use inline-block to position content in line while still respecting padding and margin & still being able to set width and height. */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-/* style main content */
+
 .content section {
     margin-bottom: 20px;
     padding: 50px;
@@ -68,8 +72,9 @@ a {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* keep image size uniform */
+
 .content img {
+    /* keep image size uniform */
     max-height: 200px;
 }
 
@@ -77,22 +82,26 @@ a {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* insert image to the left of text without overlapping */
+
 .float-left {
+    /* insert image to the left of text without overlapping */
     float: left;
     margin-right: 25px;
 }
-/* insert image to the right of text without overlapping */
+
 .float-right {
+    /* insert image to the right of text without overlapping */
     float: right;
     margin-left: 25px;
 }
-/* set font size */
+
 p {
+    /* set font size */
     font-size: 16px;
 }
-/* style sidebar, float it to the right of main content */
+/* style sidebar */
 .benefits {
+    /* float sidebar to the right of main content, add padding & margin, use "clear" to keep elements from being able to float around it */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -103,49 +112,18 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefits section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* set display to "block" in order to make sure they all appear on separate lines, while still being able to set their height and width, and respecting their padding and margin, set max width to maintain uniformity */
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefits img {
+    /* set display to "block" in order to make sure they all appear on new lines, while still being able to set their height and width and respecting their padding and margin, set max width to maintain uniformity */
     display: block;
     margin: 10px auto;
     max-width: 150px;
