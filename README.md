@@ -18,15 +18,15 @@ As you can see I've deployed a live site so you can see what the site looks like
 
 ## Deployed Link
 
-* [See Live Site](#)
+* [See Live Site](https://joshgumperz.github.io/refactor-site-assignment-/)
 
 
 ## Authors
 
 * **Josh Gumperz** 
 
-- [Link to Github](https://github.com/)
-- [Link to LinkedIn](https://www.linkedin.com/)
+- [Link to Github](https://github.com/JoshGumperz)
+- [Link to LinkedIn](https://www.linkedin.com/in/josh-gumperz-8706a8185/)
 
 ## License
 
