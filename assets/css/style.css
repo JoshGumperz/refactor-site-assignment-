@@ -1,26 +1,27 @@
+/* include the padding and border in an element's total width and height, set padding & margin.  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* set background color in body */
 body {
     background-color: #d9dcd6;
 }
-
+/* style header section */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Select all the h1 tags in the "header" class, position in a horizontal line, set font size */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
@@ -31,11 +32,11 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* remove bullet points and other styling from list elements */
 .header nav ul {
     list-style-type: none;
 }
-
+/* position the list items in a horizontal line */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -45,7 +46,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* link the header image */
 .hero {
     height: 800px;
     width: 100%;
@@ -54,13 +55,13 @@ a {
     background-size: cover;
     background-position: center;
 }
-
+/* set width to 75% so content doesn't take up the entire page, position content in line while still respecting padding and margin. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* style main content */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -87,7 +88,7 @@ a {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* keep image size uniform */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -99,7 +100,7 @@ a {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* keep heading text size uniform, add margin to separate heading text from main text */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -114,21 +115,21 @@ a {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* insert image to the left of text without overlapping */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* insert image to the right of text without overlapping */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* set font size */
 p {
     font-size: 16px;
 }
-
+/* style sidebar, float it to the right of main content */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -169,7 +170,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* set display to "block" in order to make sure they all appear on separate lines, while still being able to set their height and width, and respecting their padding and margin, set max width to maintain uniformity */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -187,7 +188,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* style footer */
 .footer {
     padding: 30px;
     clear: both;
