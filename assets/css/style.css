@@ -36,7 +36,7 @@ body {
     list-style-type: none;
 }
 
-.header li {
+.header nav ul li {
     /* position the list items next to each other in line while still respecing padding and margin */
     display: inline-block;
     margin-left: 25px;

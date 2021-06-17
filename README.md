@@ -8,6 +8,7 @@ As you can see I've deployed a live site so you can see what the site looks like
 - All non-semantic tags in index.html have been replaced with semantic ones
 - All images have a descriptive alt attribute
 - All Non functional links have been fixed
+- Added a descriptive title
 - Added descriptive comments to index.html and style.css for informational and organizational purposes
 - Restructured style.css and eliminated some of the unnecessary repeating code
 
