@@ -58,7 +58,7 @@ a {
 }
 /* style main content */
 .content {
-    /* set width to 75% so content doesn't take up the entire page, use inline-block to position content in line while still respecting padding and margin & still being able to set width and height. */
+    /* set width to 75% of it's parent element, use inline-block to position content in line while still respecting padding and margin & still being able to set width and height. */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
