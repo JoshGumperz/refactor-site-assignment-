@@ -34,4 +34,4 @@ This project is licensed under the MIT License
 
 ## Acknowledgments
 
-* I'd like to acknowledge my cat, classmates for helping and inspiring me through the process of completing this assignment.
+* I'd like to acknowledge my classmates for helping and inspiring me through the process of completing this assignment.
